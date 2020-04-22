@@ -17,7 +17,7 @@ def main():
 	# Python file name: Nishit.py
 	Port, Name, Status, Vlan, Duplex, Speed, Type, hostname = Nishit.Regexr(log_file_name)
 	
-	# For CSK: Convert 7 lists into a list of dictionaries
+	# For CSK: Convert 7 lists into a dictionary of dictionaries (Nested dictionary)
 	# Definition Name: Dictionarize
 	# Input: 7 lists (Port, Name, Status, Vlan, Duplex, Speed, Type)
 	# Output: Interfaces dictionary (dict_interfaces[Port] = {"Name": Name, "Status": Status, "Vlan": Vlan, "Duplex": Duplex, "Speed": Speed, "Type": Type})
